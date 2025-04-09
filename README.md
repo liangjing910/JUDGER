@@ -88,6 +88,16 @@ The script outputs a JSONL file with an additional judgment field:
 ```
 This judgment data is then used to enhance the JUDGER model’s ability to correct its predictions, improving multimodal VQA accuracy.
 
+## Run the JUDGER Demo
+This guide helps you run a quick demo using the test_demo.py script to verify the JUDGER model’s inference capabilities.
+Make sure you have:
+- A trained JUDGER model placed in your directory (e.g., /path/to/your/model)
+- A test image file (e.g., /root/vipuser/images/demo1.png)
+Execute the demo script in your terminal:
+```bash
+python test_demo.py
+```
+
 ## Dataset
 Due to size constraints, only a sample of the JUDGER dataset (playground/data/dataset_sample.json) is provided in this repository. The complete dataset used in the paper is too large for direct inclusion. Please refer to the sample file for dataset structure and format. For the complete dataset, please contact the authors directly. The complete dataset will be made available via an external link shortly.
 
