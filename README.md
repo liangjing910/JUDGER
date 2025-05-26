@@ -21,7 +21,7 @@ The JUDGER framework consists of three main stages:
 ## Install
 1. Clone this repository.
 ```bash
-git clone https://github.com/your-repo/JUDGER.git
+git clone https://github.com/liangjing910/JUDGER.git
 cd JUDGER
 ```
 2. Install packages
